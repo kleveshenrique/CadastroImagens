@@ -31,8 +31,8 @@ export default class ImagemManager{
                     
                     </div>
                     <div class="card-footer ">
-                    <button onclick="imagemController.alterarImagem(${indice})"><i class="fa fa-edit"></i></button> 
-                    <button onclick="imagemController.excluirImagem(${indice})"><i class="fas fa-trash"></i></button>                     
+                    <button onclick="imagemController.alterarImagem(${indice})"><i class="fa fa-edit">Alterar</i></button> 
+                    <button onclick="imagemController.excluirImagem(${indice})"><i class="fas fa-trash">Excluir</i></button>                     
                     
                     </div>
                 </div>
