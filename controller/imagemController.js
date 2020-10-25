@@ -42,6 +42,7 @@ export default class imagemController{
         document.getElementById("id").value = indice;
         document.getElementById("titulo").value = img.titulo;
         document.getElementById("link").value = img.link;
+        document.getElementById("titulo").focus();
 
     }
     excluirImagem(indice){
