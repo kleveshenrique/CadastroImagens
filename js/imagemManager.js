@@ -26,13 +26,13 @@ export default class ImagemManager{
             strListaImagens += `
                 <div class="card col-sm-4">                                     
                     <div class="card-body">
-                    <h5 class="card-title text-center">${img.titulo}</h5>
-                    <img class="card-img-top" src="${img.link}" alt="Imagem de capa do card">                   
+                        <h5 class="card-title text-center">${img.titulo}</h5>
+                        <img class="card-img-top" width="250px" height="250px" src="${img.link}" alt="Imagem de capa do card">                   
                     
                     </div>
-                    <div class="card-footer ">
-                    <button class="btn btn-primary" onclick="imagemController.alterarImagem(${indice})"><i class="fa fa-edit">Alterar</i></button> 
-                    <button class="btn btn-danger" onclick="imagemController.excluirImagem(${indice})"><i class="fas fa-trash">Excluir</i></button>                     
+                    <div class="card-footer text-center ">
+                        <button class="btn btn-primary btnCards" onclick="imagemController.alterarImagem(${indice})"><i class="fa fa-edit">Alterar</i></button> 
+                        <button class="btn btn-danger btnCards" onclick="imagemController.excluirImagem(${indice})"><i class="fas fa-trash">Excluir</i></button>                     
                     
                     </div>
                 </div>
